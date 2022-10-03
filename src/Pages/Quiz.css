@@ -1,0 +1,15 @@
+.radio {
+
+    flex-direction: column;
+    font-family: 'BMJUA';
+    justify-content: center;
+    align-items: center;
+}
+
+#option_{
+
+    font-family: 'BMJUA';
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

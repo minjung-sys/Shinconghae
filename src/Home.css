@@ -1,0 +1,200 @@
+.homemain {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    font-family: 'BMJUA';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    border-width: 1px;
+    border-color: #efefef;
+}
+.hometitle {
+    display: flex;
+    height:30%;
+    width: 80%;
+    flex-direction: column;
+    font-family: 'BMJUA';
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+}
+
+
+#title_1 {
+
+    font-size: 25px;
+    font-family: 'BMJUA';
+    align-items: center;
+   justify-content: center;
+   display: flex;
+
+
+}
+
+#title_2 {
+    font-size: 40px;
+    /* color: #3EA053; */
+    font-family: 'BMJUA';
+    /* background-color: aqua; */
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .homeimg{
+    display: flex;
+    width: 370px;
+    height:200px;
+    position: relative;
+    top:20%;
+    /* background-color: #3EA053; */
+    background-image: url('./assets/home.png');
+
+ }
+ .content{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top:20%;
+    /* background-color: antiquewhite; */
+ }
+
+ #testbutton {
+    display: flex;
+    width: 70%;
+    font-size: 20px;
+    height:20%;
+    position: absolute;
+    top:75%;
+    font-family: 'BMJUA';
+    /* background-color: #3EA053; */
+    justify-content: center;
+    align-items: center;
+ }
+
+ #contentbutton {
+    display: flex;
+    width: 80%;
+    font-size: 20px;
+    height:60%;
+    flex-direction: column;
+    font-family: 'BMJUA';
+    /* background-color: #3EA053; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: #F2FFF3;
+    padding-left: 5px;
+
+
+ }
+ #clickbutton {
+    display: flex;
+    width: 80%;
+    font-size: 20px;
+    height:60%;
+    flex-direction: column;
+    font-family: 'BMJUA';
+    /* background-color: #3EA053; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: #3EA053;
+    color: white;
+    padding-left: 5px;
+
+ }
+ #contentbutton:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+ #label {
+    display: flex;
+    width: 90%;
+    /* background-color: pink; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .button{
+    display: flex;
+    width: 60%;
+    border-width: 0;
+    height: 50px;
+    font-family: 'BMJUA';
+    font-size: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ }
+
+ .button:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  @media (max-width :420px) {
+   .homemain {
+      width: 100%;
+     
+  }
+  .homeimg{
+   display: flex;
+   position: absolute;
+   top: 40%;
+
+}
+.content{
+   height: 420px;
+   width: 100%;
+   position: absolute;
+   top: 35%;
+}
+
+#option_ {
+   font-size: 15px;
+
+
+}
+#contentbutton{
+   margin: 2px;
+}
+
+#title_1 {
+
+   font-size: 25px;
+   font-family: 'BMJUA';
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   height: 100px;
+   border-radius: 2rem;
+   width: 350px;
+   text-align: center;
+   border-width: 3px;
+   border-color: #3EA053;
+}
+.cong{
+ width: 40px;
+}
+.button{
+   position:relative;
+}
+  }
