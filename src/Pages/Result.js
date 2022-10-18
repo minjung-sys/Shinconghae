@@ -12,7 +12,6 @@ export default function Result(){
     const location = useLocation();
     const state= location.state
     const [level,setLevel] = useState(0);
-    {console.log(state)}
 
     useEffect(()=>{
         if (state>=6 && state<12){
@@ -54,7 +53,6 @@ export default function Result(){
         },        
 
     ]
-    {console.log(levelarr[level-1]?.id)}
  
     return(
         <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>

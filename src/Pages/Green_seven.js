@@ -38,7 +38,6 @@ const state= location.state
  ]
  const handleClickRadioButton = (e) =>{
     setClick(e.target.value)
-    console.log(e.target.value)
     handleScore(e.target.value);
 }
 const handleScore = (id)=>{
@@ -70,7 +69,7 @@ const conimage =(num)=>{
                     <label key={kind.id} id="label">
                         <input
                             type="radio"
-                            // style={{visibility:'hidden'}}
+                            style={{visibility:'hidden'}}
                             value={kind.id}
                             checked = {click === `${kind.id}`}
                             onChange = {handleClickRadioButton}/>

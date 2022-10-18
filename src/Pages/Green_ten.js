@@ -32,13 +32,12 @@ const [click,setClick] = useState(0);
     },
     {
         id:4,
-        title:'취향저격인데..?..바로 콩키우러가야지 !!',
+        title:'취향저격인데..?..바로 콩키우러가야지',
         score:4
     }
  ]
  const handleClickRadioButton = (e) =>{
     setClick(e.target.value)
-    console.log(e.target.value)
     handleScore(e.target.value);
 }
 const handleScore = (id)=>{
@@ -62,7 +61,7 @@ const conimage =(num)=>{
         <div className="homemain">
             <div className="hometitle">
                 <p id="title_2">신.콩 레벨 테스트</p>
-                <p id= "title_1">{title}</p>
+                <p id= "title_1" style={{height:'20px'}}>{title}</p>
 
             </div>
             <div className="content">
@@ -70,7 +69,7 @@ const conimage =(num)=>{
                     <label key={kind.id} id="label">
                         <input
                             type="radio"
-                            // style={{visibility:'hidden'}}
+                            style={{visibility:'hidden'}}
                             value={kind.id}
                             checked = {click === `${kind.id}`}
                             onChange = {handleClickRadioButton}/>

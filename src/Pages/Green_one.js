@@ -49,15 +49,14 @@ const handleScore = (id)=>{
         <div className="homemain">
             <div className="hometitle">
                 <p id="title_2">신.콩 레벨 테스트</p>
-              
-                <p id= "title_1">{title}</p>
+                <p id= "title_1" >{title}</p>
             </div>
             <div className="content">
                 {options.map(kind=>(
                     <label key={kind.title} id="label">
                         <input
                             type="radio"
-                            // style={{backgroundColor:'#3EA053'}}
+                            style={{visibility:'hidden'}}
                             value={kind.id}
                             checked = {click === `${kind.id}`}
                             onChange = {handleClickRadioButton}/>                            

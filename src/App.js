@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {Route, Routes} from 'react-router-dom';
 import Home from './Home';
@@ -13,6 +12,7 @@ import Greeneight from './Pages/Green_eight';
 import Greenine from './Pages/Green_nine';
 import Greenten from './Pages/Green_ten';
 import Result from './Pages/Result';
+import Mainpange from './Pages/Mainpage';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
       <Route path="/nine" element = {<Greenine/>}/>
       <Route path="/ten" element = {<Greenten/>}/>
       <Route path="/result" element = {<Result/>}/>
-
+      <Route path="/mainpage" element={<Mainpange/>}/>
     </Routes>
   );
 }

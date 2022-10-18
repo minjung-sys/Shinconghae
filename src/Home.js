@@ -1,8 +1,6 @@
 import React from "react";
-import home from './assets/home.png';
 import './Home.css';
 import './font.css';
-import logo from './logo.svg';
 import {useNavigate} from 'react-router-dom';
 
 function Home(){
@@ -13,7 +11,6 @@ function Home(){
             <div className="hometitle">
                 <p id= "title_1">내 환경 점수는?</p>
                 <p id="title_2">신.콩 레벨 테스트</p>
-
             </div>
             <div className="homeimg">
             </div>

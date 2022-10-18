@@ -61,7 +61,7 @@ const handleScore = (id)=>{
                     <label key={kind.score} id="label">
                         <input
                             type="radio"
-                            // style={{visibility:'hidden'}}
+                            style={{visibility:'hidden'}}
                             value={kind.id}
                             checked = {click === `${kind.id}`}
                             onChange = {handleClickRadioButton}/>

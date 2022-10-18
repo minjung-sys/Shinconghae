@@ -19,13 +19,12 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 10px;
 }
 
 
 #title_1 {
 
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'BMJUA';
     align-items: center;
    justify-content: center;
@@ -121,6 +120,8 @@
  }
  #contentbutton:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #3EA053;
+    color: white;
   }
 
  #label {
@@ -165,36 +166,51 @@
    height: 420px;
    width: 100%;
    position: absolute;
-   top: 35%;
+   top: 30%;
 }
 
 #option_ {
-   font-size: 15px;
+   font-size: 12px;
 
 
 }
 #contentbutton{
-   margin: 2px;
+   margin: 0px;
+   font-size: 12px;
 }
 
 #title_1 {
 
-   font-size: 25px;
+   font-size: 20px;
    font-family: 'BMJUA';
    align-items: center;
    justify-content: center;
    display: flex;
-   height: 100px;
+   
    border-radius: 2rem;
-   width: 350px;
+   width: 360px;
    text-align: center;
    border-width: 3px;
-   border-color: #3EA053;
+   position: relative;
 }
 .cong{
  width: 40px;
 }
 .button{
-   position:relative;
+   position:absolute;
+   top: 85%;
+   width: 90%;
+
 }
+.hometitle {
+   display: flex;
+   height:30%;
+   width: 80%;
+   flex-direction: column;
+   font-family: 'BMJUA';
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
   }
